@@ -5,12 +5,12 @@
         <p class="text-danger">タイトルは1～255文字以内で入力してください</p>
       <% end %>
       <div class="cardeditForm_title">
-        <%= f.label :title %>
+        <%= f.label :title, "タイトル" %>
         <%= f.text_field :title, class: "form-control", placeholder: "カード名" %>
       </div>
       <div class="cardeditForm_memo">
-        <%= f.label :memo %>
-        <%= f.text_area :memo, class: "form-control", placeholder: "詳細" %>
+        <%= f.label :memo, "内容" %>
+        <%= f.text_area :memo, rows: 10, class: "form-control", placeholder: "詳細" %>
       </div>
       <div class="cardeditForm_memo">
         <label>リスト名</label>

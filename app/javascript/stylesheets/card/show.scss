@@ -1,7 +1,19 @@
+body {
+  background-image: url("../../assets/images/corkboard.jpg");
+  background-color:rgba(255,255,255,0.3);
+  background-blend-mode:lighten;
+  background-size:cover;
+}
 .carddetailPage {
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  margin: 0px auto;
   .cardContents {
-    margin: 60px auto 0;
+    margin: 0px auto;
+    padding: 50px 0;
     max-width: 600px;
+    height: 100%;
     &_title {
       h2 {
         font-size: 22px;
@@ -19,7 +31,7 @@
         &.edit_btn {
           max-width: 200px;
           margin: 0 auto;
-          background: #026aa7;
+          background: #909292;
           padding: 7px;
           border-radius: 10px;
           color: #fff;
@@ -28,12 +40,19 @@
           &:hover {
             opacity: .7;
           }
-          &.delete_btn {
-            margin-top: 20px;
-          }
         }
         &.delete_btn {
-          margin-top: 20px;
+          max-width: 200px;
+          margin: 20px auto;
+          background: #ec7a07;
+          padding: 7px;
+          border-radius: 10px;
+          color: #fff;
+          transition: opacity .5s;
+          text-decoration: none;
+          &:hover {
+            opacity: .7;
+          }
         }
       }
     }
