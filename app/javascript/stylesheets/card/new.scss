@@ -1,0 +1,14 @@
+.cardnewPgae {
+  background-color: #fff;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  .cardnewForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px 0;
+    &_title {
+      margin-bottom: 30px;
+    }
+  }
+}
