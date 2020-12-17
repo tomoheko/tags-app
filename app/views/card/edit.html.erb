@@ -10,11 +10,15 @@
       </div>
       <div class="cardeditForm_memo">
         <%= f.label :memo, "内容" %>
-        <%= f.text_area :memo, rows: 10, class: "form-control", placeholder: "詳細" %>
+        <%= f.text_area :memo, rows: 8, class: "form-control", placeholder: "詳細" %>
       </div>
       <div class="cardeditForm_memo">
         <label>リスト名</label>
         <%= select :card, :list_id, @lists.map{ |l| [l.title, l.id] }, {}, { class: 'form-control' } %>
+      </div>
+      <div class="cardeditForm_check">
+        <%= check_box_tag :check %>
+        <%= label_tag :check, "完了したらチェック!!" %>
       </div>
       <div class="text-center"><%= f.submit "更新する", class: "submitBtn" %></div>
     <% end %>
