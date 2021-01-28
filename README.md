@@ -3,12 +3,10 @@
 <tr>
 <td><img src="app/assets/images/board-preview3.png"></td>
 <td><img src="app/assets/images/board-preview5.png"></td>
-<td><img src="app/assets/images/board-preview4.png"></td>
 </tr>
+<td><img src="app/assets/images/board-preview4.png"></td>
 </table>
-![](app/assets/images/board-preview3.png)
-![](app/assets/images/board-preview5.png)
-![](app/assets/images/board-preview4.png)
+
 
 ## 【アプリケーションの作成理由】
  <b>「タスクや思考を整理するアプリが欲しい」</b><br>   
