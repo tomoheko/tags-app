@@ -1,6 +1,6 @@
 .carddetailPage {
   background-color: #fff;
-  background-color:rgba(#fff, 0.3);
+  background-color:rgba(#fff, 0.6);
   width: 70%;
   height: 100%;
   margin: 0px auto;
@@ -15,7 +15,7 @@
       }
     }
     &_title, &_memo, &_listStatus {
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid rgb(87, 82, 82);
       margin-bottom: 30px;
     }
     &_btnArea {
