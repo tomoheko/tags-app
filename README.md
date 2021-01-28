@@ -4,7 +4,10 @@
 <td><img src="app/assets/images/board-preview3.png"></td>
 <td><img src="app/assets/images/board-preview5.png"></td>
 </tr>
+<tr>
+<td><img src="app/assets/images/board-preview6.png"></td>
 <td><img src="app/assets/images/board-preview4.png"></td>
+</tr>
 </table>
 
 
