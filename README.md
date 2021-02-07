@@ -6,7 +6,7 @@
 </tr>
 <tr>
 <td><img src="app/assets/images/board-preview4.png"></td>
-<td><img src="app/assets/images/oard-preview7-wood.png"></td>
+<td><img src="app/assets/images/board-preview7-wood.png"></td>
 </tr>
 </table>
 
