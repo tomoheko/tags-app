@@ -1,7 +1,9 @@
 body {
   overflow: visible;
-  background-image: url("../../assets/images/corkboard.jpg");
-  background-color:rgba(255,255,255,0.3);
+  // background-image: url("../../assets/images/corkboard.jpg"); //コルクボード風
+  background-image: url("../../assets/images/notepad.jpg");
+  background-color:rgba(255,255,255,0.2);
+  // background-color:rgba(255,255,255,0.3); //コルクボード風
   background-blend-mode:lighten;
   background-size:cover;
 }
@@ -13,8 +15,8 @@ body {
 
 // header
 .header {
-  // background: #C19A6B;
-  background-image: url("../../assets/images/wood3.png");
+  background: #8e9393;
+  // background-image: url("../../assets/images/wood3.png"); //コルクボード風
   padding: 10px;
   .nav {
     .header_menu {

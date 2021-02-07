@@ -7,9 +7,10 @@
     height: 100%;
     align-items: baseline;
     .list {
-      color: #f1f1f1;
+      // color: #f1f1f1; //コルクボード風
       position: relative;
-      background: #5a250f;
+      background: #e2e4e6;
+      // background: #5a250f; //コルクボード風
       padding: 10px;
       margin-left: 20px;
       min-width: 250px;
@@ -43,7 +44,6 @@
           color: #323232;
         }
         .card {
-          background: #e2e4e6;
           margin-bottom: 10px;
           padding: 10px;
           &_title {
@@ -61,9 +61,11 @@
           }
         }
         .addCard {
-          color: #f1ebeb;
+          // color: #f1ebeb; //コルクボード風
+          color: #8c8c8c;
           &_link {
-            color: #f1f1f1;
+            // color: #f1f1f1; //コルクボード風
+            color: #8c8c8c;
           }
         }
       }
