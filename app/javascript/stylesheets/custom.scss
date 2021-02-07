@@ -1,7 +1,7 @@
 body {
   overflow: visible;
-  background-image: url("../../assets/images/notepad.jpg");
-  background-color:rgba(255,255,255,0.2);
+  background-image: url("../../assets/images/corkboard.jpg");
+  background-color:rgba(255,255,255,0.3);
   background-blend-mode:lighten;
   background-size:cover;
 }
@@ -13,7 +13,8 @@ body {
 
 // header
 .header {
-  background: #909292;
+  // background: #C19A6B;
+  background-image: url("../../assets/images/wood3.png");
   padding: 10px;
   .nav {
     .header_menu {
