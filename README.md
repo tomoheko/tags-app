@@ -48,9 +48,3 @@
 ## 【ページ公開】
 トップページ（ログイン時）  https://gyazo.com/9e08032f84b2ce335cb2c857b145f0ec<br>
 HerokuURL：https://tagsboard.herokuapp.com/
-
-
-### 【連絡先】
-久田智大 ヒサダトモヒロ<br>
-Gmail / dekirumadeyamenai@gmail.com<br>
-twitter / https://twitter.com/tomotech5<br>
